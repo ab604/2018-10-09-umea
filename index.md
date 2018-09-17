@@ -15,6 +15,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
 
 {% comment %}
+{% endcomment %}
   HEADER
 
   Edit the values in the block above to be appropriate for your workshop.
@@ -22,11 +23,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 startdate: 2018-10-09      # machine-readable start date for the workshop in 2018-10-09 format like 2015-01-01
 enddate: 2018-10-10        # machine-readable end date for the workshop in 2018-10-10 format like 2015-01-02
 instructor: ["Luca Di Stasio", "Alistair Bailey"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["To be announced"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["fixme@example.org"]    # boxed, comma-separated list of contact email 
   double quotation marks around the value, unless specified otherwise.
   And run 'make workshop-check' *before* committing to make sure that changes are good.
-{% endcomment %}
+
 
 {% comment %}
   EVENTBRITE
@@ -508,7 +509,9 @@ email: ["fixme@example.org"]    # boxed, comma-separated list of contact email
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
-<div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
+
+{% comment %}
+<div id="python">  Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
            Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility {% endcomment %}
