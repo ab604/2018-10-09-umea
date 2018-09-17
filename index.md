@@ -4,7 +4,7 @@ carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "sw
 venue: "HPC2N, Umeå University"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "N270 HPC2N, SE-901 87, Umeå, Sweden"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "SE"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "63.820495, 20.307391"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 humandate: "October 9th-10th 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "0900 - 1700"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -19,8 +19,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
   Edit the values in the block above to be appropriate for your workshop.
   If the value is not 'true', 'false', 'null', or a number, please use
-startdate: FIXME      # machine-readable start date for the workshop in 2018-10-09 format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in 2018-10-10 format like 2015-01-02
+startdate: 2018-10-09      # machine-readable start date for the workshop in 2018-10-09 format like 2015-01-01
+enddate: 2018-10-10        # machine-readable end date for the workshop in 2018-10-10 format like 2015-01-02
 instructor: ["Luca Di Stasio", "Alistair Bailey"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["fixme@example.org"]    # boxed, comma-separated list of contact email 
