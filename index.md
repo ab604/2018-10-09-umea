@@ -5,8 +5,8 @@ venue: "HPC2N, Umeå University"        # brief name of host site without addres
 address: "N270 HPC2N, SE-901 87, Umeå, Sweden"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "SE"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "63.839590,20.232890"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "October 9th and 10th 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+latlng: "63.820495, 20.307391"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+humandate: "October 9th-10th 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "0900 - 1700"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -21,7 +21,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   If the value is not 'true', 'false', 'null', or a number, please use
 startdate: FIXME      # machine-readable start date for the workshop in 2018-10-09 format like 2015-01-01
 enddate: FIXME        # machine-readable end date for the workshop in 2018-10-10 format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Luca Di Stasio, Alistair Bailey"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["fixme@example.org"]    # boxed, comma-separated list of contact email 
   double quotation marks around the value, unless specified otherwise.
@@ -46,10 +46,8 @@ email: ["fixme@example.org"]    # boxed, comma-separated list of contact email
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
+<h4> 
+<a href="https://www.hpc2n.umu.se/events/courses/software-carpetry-fall-2018">Register Here</a></h4>
 
 <h2 id="general">General Information</h2>
 
@@ -225,7 +223,7 @@ and our administrator may contact you if we need any extra information.</h4>
 
   If you want to use an Etherpad, go to
 
-      http://pad.software-carpentry.org/YYYY-MM-DD-site
+      http://pad.software-carpentry.org/2018-10-09-umea
 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
@@ -654,6 +652,7 @@ and our administrator may contact you if we need any extra information.</h4>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
+{% comment %}
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
@@ -699,6 +698,7 @@ and our administrator may contact you if we need any extra information.</h4>
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
+{% endcomment %}
 
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
