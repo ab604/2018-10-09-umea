@@ -21,7 +21,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   If the value is not 'true', 'false', 'null', or a number, please use
 startdate: FIXME      # machine-readable start date for the workshop in 2018-10-09 format like 2015-01-01
 enddate: FIXME        # machine-readable end date for the workshop in 2018-10-10 format like 2015-01-02
-instructor: ["Luca Di Stasio, Alistair Bailey"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Luca Di Stasio", "Alistair Bailey"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["fixme@example.org"]    # boxed, comma-separated list of contact email 
   double quotation marks around the value, unless specified otherwise.
