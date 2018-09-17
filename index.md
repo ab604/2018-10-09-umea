@@ -611,6 +611,7 @@ email: ["fixme@example.org"]    # boxed, comma-separated list of contact email
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 {% endcomment %}
 
+{% comment %}
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -657,6 +658,7 @@ email: ["fixme@example.org"]    # boxed, comma-separated list of contact email
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+{% endcomment %}
 
 {% comment %}
 <div id="vm">
