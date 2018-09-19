@@ -11,6 +11,7 @@ humantime: "0900 - 1700"    # human-readable times for the workshop (e.g., "9:00
 startdate: 2018-10-09 
 enddate: 2018-1010
 instructor: ["Luca Di Stasio", "Alistair Bailey"] 
+helper: ["To be announced"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
