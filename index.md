@@ -51,10 +51,10 @@ email: ["fixme@example.org"]    # boxed, comma-separated list of contact email
 </iframe>
 {% endif %}
 
+<h2 id="general">General Information</h2>
+
 <h4> 
 <a href="https://www.hpc2n.umu.se/events/courses/software-carpetry-fall-2018">Register Here</a></h4>
-
-<h2 id="general">General Information</h2>
 
 {% comment %}
   INTRODUCTION
